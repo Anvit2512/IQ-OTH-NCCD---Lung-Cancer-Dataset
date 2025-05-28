@@ -1,1 +1,87 @@
 Link for the dataset -> https://www.kaggle.com/datasets/adityamahimkar/iqothnccd-lung-cancer-dataset
+
+
+🫁 Lung Cancer Detection (Multi-Class Classification)
+This project focuses on the early detection of lung cancer by classifying CT scan images into three categories:
+
+Benign Cases
+
+Normal Cases
+
+Malignant Cases
+
+Using deep learning techniques and the IQ-OTH/NCCD - Lung Cancer Dataset, the model achieves exceptional performance with high accuracy and class-wise precision.
+
+🔬 Objective
+Lung cancer is one of the leading causes of death globally. Early detection is critical to increase survival rates. This project aims to:
+
+Build a deep learning model that can accurately classify CT scans.
+
+Assist radiologists and healthcare professionals with quick and reliable diagnostics.
+
+📁 Dataset
+Dataset: IQ-OTH/NCCD - Lung Cancer Dataset
+
+Number of images: 1,193 (after preprocessing)
+
+Classes: Benign, Normal, Malignant
+
+🧠 Model Overview
+Deep learning model implemented using PyTorch.
+
+Custom CNN architecture with multiple convolutional and pooling layers.
+
+Optimized using Adam optimizer and cross-entropy loss.
+
+📈 Model Performance (After 10 Epochs)
+Training Accuracy: 99.89%
+
+Validation Accuracy: 99.55%
+
+📊 Confusion Matrix
+lua
+Copy
+Edit
+[[ 23   0   1]
+ [  0 115   0]
+ [  0   0  81]]
+📋 Classification Report
+Class	Precision	Recall	F1-Score
+Benign Cases	1.00	0.96	0.98
+Normal Cases	1.00	1.00	1.00
+Malignant Cases	0.99	1.00	0.99
+
+Overall Accuracy: 99.55%
+
+Macro Average F1 Score: 0.99
+
+✅ The model shows excellent generalization, with nearly perfect classification across all classes.
+
+🚀 How to Run
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/Anvit2512/IQ-OTH-NCCD---Lung-Cancer-Dataset.git
+cd IQ-OTH-NCCD---Lung-Cancer-Dataset
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook Lung_cancer_multiclassification.ipynb
+🛠 Technologies Used
+Python
+
+PyTorch
+
+OpenCV
+
+NumPy, Pandas
+
+Scikit-learn
+
+Jupyter Notebook
+
+📬 Contact
+For any questions or collaborations, feel free to connect with me on LinkedIn.
